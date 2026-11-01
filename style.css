@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/BG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.sns-section {
+    height: 35vh;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-sns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sns-img {
+    object-fit: contain;
+    transition: 0.3s;
+}
+.sns-img:hover {
+    scale: 1.05;
+}
+
+.youtube {
+    height: 104px;
+    width: auto;
+    object-fit: contain;
+}
+
+.x {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+}
+
+.instagram {
+    height: 70px;
+    width: auto;
+    margin-left: 17px;
+    object-fit: contain;
+}
+
+.illust-section {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.card {
+    width: 600px;
+    max-width: 90%;
+    max-height: 95%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-height: 280px) {
+    .illust-section {
+        display: none !important;
+    }
+    .sns-section {
+        height: 100vh;
+        padding-bottom: 0;
+    }
+}
