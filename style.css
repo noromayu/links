@@ -1,21 +1,15 @@
 @charset "utf-8";
 
-html {
-    overscroll-behavior: none;
-}
 
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     min-height: 100dvh;
+    background-color: #1f2222;
 }
 
 body {
-    background-image: url(BG.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -99,6 +93,5 @@ body {
     }
     .sns-section {
         height: 100vh;
-        padding-bottom: 0;
     }
 }
