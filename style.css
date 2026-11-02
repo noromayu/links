@@ -119,4 +119,7 @@ body {
     .card {
         transform: translateY(-60px);
     }
+    .sns-section {
+        height: 33vh;
+    }
 }
