@@ -27,7 +27,7 @@ body {
 }
 
 .sns-section {
-    height: 35vh;
+    height: 40vh;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -38,7 +38,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 34px;
+    margin-right: 13px;
 }
 
 .sns-img {
@@ -50,21 +51,21 @@ body {
 }
 
 .youtube {
-    height: 104px;
+    height: 91px;
     width: auto;
     object-fit: contain;
 }
 
 .x {
-    height: 65px;
+    height: 56px;
     width: auto;
     object-fit: contain;
 }
 
 .instagram {
-    height: 70px;
+    height: 62px;
     width: auto;
-    margin-left: 17px;
+    margin-left: 15px;
     object-fit: contain;
 }
 
@@ -78,13 +79,14 @@ body {
 }
 
 .card {
-    width: 600px;
+    width: 580px;
     max-width: 90%;
     max-height: 95%;
     height: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
+    transform: translateY(-28px);
 }
 
 @media (max-height: 280px) {
@@ -93,5 +95,31 @@ body {
     }
     .sns-section {
         height: 100vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .youtube {
+        height: 70px;
+        width: auto;
+    }
+    .x {
+        height: 44px;
+        width: auto;
+    }
+    .instagram {
+        height: 49px;
+        width: auto;
+        margin-left: 10px;
+    }
+    .item-sns {
+        margin-right: 2px;
+        gap: 25px;
+    }
+    .sns-section {
+        height: 45vh;
+    }
+    .card {
+        transform: translateY(-23px);
     }
 }
