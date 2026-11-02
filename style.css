@@ -116,4 +116,7 @@ body {
         margin-right: 2px;
         gap: 25px;
     }
+    .card {
+        transform: translateY(-60px);
+    }
 }
