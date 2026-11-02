@@ -100,24 +100,24 @@ body {
 
 @media (max-width: 480px) {
     .youtube {
-        height: 70px;
+        height: 69px;
         width: auto;
     }
     .x {
-        height: 44px;
+        height: 43px;
         width: auto;
     }
     .instagram {
-        height: 49px;
+        height: 48px;
         width: auto;
         margin-left: 10px;
     }
     .item-sns {
-        margin-right: 2px;
+        margin-right: 4px;
         gap: 25px;
     }
     .card {
-        transform: translateY(-50px);
+        transform: translateY(-40px);
     }
     .sns-section {
         height: 33vh;
