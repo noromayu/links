@@ -116,10 +116,7 @@ body {
         margin-right: 4px;
         gap: 25px;
     }
-    .sns-section {
-        height: 42vh;
-    }
     .card {
-        transform: translateY(-80px);
+        transform: translateY(-100px);
     }
 }
