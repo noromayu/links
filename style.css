@@ -120,6 +120,6 @@ body {
         height: 42vh;
     }
     .card {
-        transform: translateY(-60px);
+        transform: translateY(-80px);
     }
 }
